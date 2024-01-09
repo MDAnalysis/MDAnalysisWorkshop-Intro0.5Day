@@ -1,6 +1,6 @@
 # MDAnalysisWorkshop2023
 
-Materials for the October 25, 2023 MDAnalysis workshop.
+Materials for the October 25, 2023 MDAnalysis workshop. The [recording](https://www.youtube.com/watch?v=njzoNzOwR78) of this workshop is available on the [MDAnalysis YouTube channel](https://www.youtube.com/@mdanalysis3040).
 
 ## Schedule
 Moderator: [Jenna Swarthout Goddard](https://github.com/jennaswa)
