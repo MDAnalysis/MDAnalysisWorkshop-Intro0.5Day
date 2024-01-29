@@ -1,18 +1,10 @@
-# MDAnalysisWorkshop2023
+# MDAnalysis Workshop, February 2024
 
-Materials for the October 25, 2023 MDAnalysis workshop.
+**NOTE: Materials for this workshop are currently under construction and likely to change - please check again closer to the workshop date.**
 
 ## Schedule
-Moderator: [Jenna Swarthout Goddard](https://github.com/jennaswa)
 
-| Time | Topic | Instructor |
-|-----|-----|-----|
-|15:00 - 15:30 UTC | Installation troubleshooting | [Ian Kenney](https://github.com/ianmkenney) | 
-|15:30 - 16:30 UTC | Lecture 1 + Tutorial 1 | [Micaela Matta](https://github.com/micaela-matta) |
-|16:30 - 16:45 UTC | Q&A / Break||
-|16:45 - 17:45 UTC | Lecture 2 + Tutorial 2 | [Richard Gowers](https://github.com/richardjgowers) | 
-|17:45 - 18:00 UTC |Q&A / Break ||
-|18:00 - 18:30 UTC |Final Q&A | [Fiona Naughton](https://github.com/fiona-naughton) |
+*TBA*
 
 ## Workshop pre-requisites
 
