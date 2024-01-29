@@ -18,6 +18,9 @@ The rules for this file:
   * Don't ever delete anything
 -->
 
+**2024**
+- Fiona Naughton @fiona-naughton
+
 **2023**
 - Irfan Alibay @IAlibay
 - Lily Wang @lilyminium
