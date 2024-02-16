@@ -53,8 +53,25 @@ jupyter nbextension enable limit_output/main
 jupyter nbextension enable toc2/main
 ```
 
+# Installing Blender and Molecular Nodes
+
+> :warning: **Blender uses its own Python and MDAnalysis installation, so these will live separately to those installed in the earlier parts in this tutorial.**
+> 
+This is a brief overview of the installation instructions which can be found on the [Molecular Nodes][5] website.
+
+1. Download the latest stable [Blender][6] (Currently 4.0)
+2. Download the corresponding latest corresponding [Molecular Nodes][7] (currently 4.0.9)
+3. Install the `molecularnodes_4.0.9.zip` into Blender via the add-ons panel in the preferences.
+4. Use the `Install` buttons to install _at least_ `biotite` and `MDAnalysis` into Blender's bundled python.
+
+For more details on these steps, visit the [Molecular Nodes][5] installation page.
+
+
 
 [1]: https://jupyter-notebook.readthedocs.io/en/stable/
 [2]: https://docs.anaconda.com/anaconda/install/
 [3]: https://conda.io/projects/conda/en/latest/index.html
 [4]: https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html?highlight=conda%20activate#managing-environments
+[5]: https://bradyajohnston.github.io/MolecularNodes/installation.html
+[6]: https://www.blender.org/download/
+[7]: https://github.com/BradyAJohnston/MolecularNodes/releases/
