@@ -60,12 +60,21 @@ jupyter nbextension enable toc2/main
 This is a brief overview of the installation instructions which can be found on the [Molecular Nodes][5] website.
 
 1. Download the latest stable [Blender][6] (Currently 4.0)
-2. Download the corresponding latest corresponding [Molecular Nodes][7] (currently 4.0.9)
+2. Download the corresponding latest release of [Molecular Nodes][7] (currently 4.0.9)
 3. Install the `molecularnodes_4.0.9.zip` into Blender via the add-ons panel in the preferences.
 4. Use the `Install` buttons to install _at least_ `biotite` and `MDAnalysis` into Blender's bundled python.
 
 For more details on these steps, visit the [Molecular Nodes][5] installation page.
 
+## Install BNotebooks for interactive visualization
+
+Assuming you have already installed Blender and MolecularNodes, you can follow these steps to install BNotebooks.
+
+1. Download the corresponding latest release of [BNotebooks][8] (currently 0.0.5)
+2. Install the `BNotebooks_0.0.5.zip` into Blender via the add-ons panel in the preferences.
+3. Click `install jupyterlab` and DON'T PANIC! An error is likely to occur here. Just restart Blender and open the add-ons panel again. You should see that the jupyterlab extension is installed.
+4. Click `Append Kernel` and a jupyter kernel should be installed correctly with the corresponding name.
+5. Open a jupyter notebook locally and select the kernel you just installed. A new Blender window should open and you should be able to run the cells in the notebook. (start with `import bpy`)
 
 
 [1]: https://jupyter-notebook.readthedocs.io/en/stable/
@@ -75,3 +84,4 @@ For more details on these steps, visit the [Molecular Nodes][5] installation pag
 [5]: https://bradyajohnston.github.io/MolecularNodes/installation.html
 [6]: https://www.blender.org/download/
 [7]: https://github.com/BradyAJohnston/MolecularNodes/releases/
+[8]: https://github.com/BradyAJohnston/BNotebooks/releases
