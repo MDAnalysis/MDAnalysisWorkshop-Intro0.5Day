@@ -3,8 +3,17 @@
 **NOTE: Materials for this workshop are currently under construction and likely to change - please check again closer to the workshop date.**
 
 ## Schedule
-
-*TBA*
+*Schedule is subject to change*
+| Time | Topic | Instructor |
+|-----|-----|-----|
+|03:00 - 03:05 UTC | Introduction | |
+|03:05 - 04:15 UTC | MDAnalysis Lecture 1 / Tutorial 1 | [Fiona Naughton](https://github.com/fiona-naughton) |
+|04:15 - 04:20 UTC | Q&A / Break| |
+|04:20 - 05:30 UTC | MDAnalysis Lecture 2 / Tutorial 2 | [Lily Wang](https://github.com/lilyminium) | 
+|05:30 - 05:35 UTC | Q&A / Break ||
+|05:35 - 06:45 UTC | Molecular Nodes Lecture / Tutorial | [Brady Johnston](https://github.com/BradyAJohnston), [Yuxuan Zhuang](https://github.com/yuxuanzhuang) |
+|06:45 - 06:50 UTC | Final Announcements ||
+|06:50 - 07:00 UTC | Final Q&A ||
 
 ## Workshop pre-requisites
 
@@ -18,10 +27,10 @@ If for any reason you cannot set up a local environment with all required packag
 
 | Session                 | Materials |
 |-------------------------|-----------|
-| Lecture 1: MDAnalysis Basics| [![MDA Part 1 Lecture](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MDAnalysis/MDAnalysisWorkshop2023/blob/oct23-ws/notebooks/Lecture1_MDAnalysisBasics.ipynb) |
-| Tutorial 1: System Manipulation and Atom Selection  | [![MDA Part 1 Tutorial](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MDAnalysis/MDAnalysisWorkshop2023/blob/oct23-ws/notebooks/Tutorial1_System_Manipulation.ipynb) |
-| Lecture 2: Distance Calculations | [![MDA Part 2 Lecture](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MDAnalysis/MDAnalysisWorkshop2023/blob/oct23-ws/notebooks/Lecture2_Distance_calculations.ipynb) |
-| Tutorial 2: Distances and Trajectories | [![MDA Part 2 Tutorial](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MDAnalysis/MDAnalysisWorkshop2023/blob/oct23-ws/notebooks/Tutorial2_Distances_Trajectories.ipynb) |
+| Lecture 1: MDAnalysis Basics| [![MDA Part 1 Lecture](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/feb24-ws/notebooks/Lecture1_MDAnalysisBasics.ipynb) |
+| Tutorial 1: System Manipulation and Atom Selection  | [![MDA Part 1 Tutorial](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/feb24-ws/notebooks/Tutorial1_System_Manipulation.ipynb) |
+| Lecture 2: Distance Calculations | [![MDA Part 2 Lecture](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/feb24-ws/notebooks/Lecture2_Distance_calculations.ipynb) |
+| Tutorial 2: Distances and Trajectories | [![MDA Part 2 Tutorial](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/feb24-ws/notebooks/Tutorial2_Distances_Trajectories.ipynb) |
 
 
 ## Setting up your Python environment *before the workshop*
@@ -34,6 +43,8 @@ are provided in [`INSTALL.md`](INSTALL.md).
 A full list of the required Python packages can be seen inside [`environment.yml`](environment.yml).
 
 As downloading and installing everything will take a little while, ideally you should follow these steps before the workshop starts. If you encounter any issues during installation, we can help!
+
+**Note:** Materials may change between now and the time of the workshop, so while we ask you to install ahead of time, also make sure to `git pull` just prior to the start of the workshop.
 
 
 ## Code of Conduct
