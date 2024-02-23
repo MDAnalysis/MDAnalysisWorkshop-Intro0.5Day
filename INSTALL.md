@@ -60,8 +60,8 @@ jupyter nbextension enable toc2/main
 This is a brief overview of the installation instructions which can be found on the [Molecular Nodes][5] website.
 
 1. Download the latest stable [Blender][6] (Currently 4.0)
-2. Download the corresponding latest release of [Molecular Nodes][7] (currently 4.0.9)
-3. Install the `molecularnodes_4.0.9.zip` into Blender via the add-ons panel in the preferences.
+2. Download the corresponding latest release of [Molecular Nodes][7] (currently 4.0.11)
+3. Install the `molecularnodes_4.0.11.zip` into Blender via the add-ons panel in the preferences.
 4. Use the `Install` buttons to install _at least_ `biotite` and `MDAnalysis` into Blender's bundled python.
 
 For more details on these steps, visit the [Molecular Nodes][5] installation page.
