@@ -8,7 +8,7 @@
 |-----|-----|-----|
 |03:00 - 03:05 UTC | Introduction | |
 |03:05 - 04:15 UTC | MDAnalysis Lecture 1 / Tutorial 1 | [Fiona Naughton](https://github.com/fiona-naughton) |
-|04:14 - 04:20 UTC | Q&A / Break| |
+|04:15 - 04:20 UTC | Q&A / Break| |
 |04:20 - 05:30 UTC | MDAnalysis Lecture 2 / Tutorial 2 | [Lily Wang](https://github.com/lilyminium) | 
 |05:30 - 05:35 UTC | Q&A / Break ||
 |05:35 - 06:45 UTC | Molecular Nodes Lecture / Tutorial | [Brady Johnston](https://github.com/BradyAJohnston) |
