@@ -11,7 +11,7 @@
 |04:15 - 04:20 UTC | Q&A / Break| |
 |04:20 - 05:30 UTC | MDAnalysis Lecture 2 / Tutorial 2 | [Lily Wang](https://github.com/lilyminium) | 
 |05:30 - 05:35 UTC | Q&A / Break ||
-|05:35 - 06:45 UTC | Molecular Nodes Lecture / Tutorial | [Brady Johnston](https://github.com/BradyAJohnston) |
+|05:35 - 06:45 UTC | Molecular Nodes Lecture / Tutorial | [Brady Johnston](https://github.com/BradyAJohnston), [Yuxuan Zhuang](https://github.com/yuxuanzhuang) |
 |06:45 - 06:50 UTC | Final Announcements ||
 |06:50 - 07:00 UTC | Final Q&A ||
 
