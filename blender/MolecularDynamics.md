@@ -34,6 +34,17 @@ You can create new windows by dragging out of the corners of the windows, or com
 
 ## MD Trajectory Panel
 
+To create an animation of the structure opening, we will import one of the example datasets that we have been working with in the previous jupyter notebooks.
+
+The data should already be downloaded onto your computer, found in your home folder under `~/MDAnalysis_data/`.
+You can check the path of the files by running this command in one of your notebooks.
+
+``` python
+# pip install MDAnalysisData
+from MDAnalysisData import datasets
+data.fetch_adk_transitions_DIMS()
+```
+
 To import trajectories, change the import method in the Molecular Nodes panel to the `MD` import method.
 
 1.  Change the import method from PDB to MD
@@ -59,7 +70,6 @@ More detail on each option is further in this tutorial, but the short descriptio
 Click `Load` to import the selected trajectory with the chosen options.
 The model will appear in the scene, and once you change frame in the scene, it will update the frame displayed in the viewport.
 
-
 https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261/e7b58652-a83c-4bd5-bd7d-5b110adb79b7
 
 ### Changing Style
@@ -70,7 +80,6 @@ As you can see in the example, if we don't apply the style, we can view just the
 Depending on which nodes we use to process that data, we can create different styles of further animations.
 
 https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261/1b0e1273-9bf2-44c6-95a7-9edf933807b8
-
 
 ### Subframes
 
@@ -119,16 +128,7 @@ To make changes you must reimport the trajectory.
 
 ## Creating the Animation
 
-To create an animation of the structure opening, we will import one of the example datasets that we have been working with in the previous jupyter notebooks.
 
-The data should already be downloaded onto your computer, found in your home folder under `~/MDAnalysis_data/`.
-You can check the path of the files by running this command in one of your notebooks.
-
-``` python
-# pip install MDAnalysisData
-from MDAnalysisData import datasets
-data.fetch_adk_transitions_DIMS()
-```
 
 ### Loading the Trajectory
 
