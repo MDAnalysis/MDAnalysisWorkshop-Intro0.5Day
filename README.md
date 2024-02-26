@@ -1,18 +1,20 @@
 # Online Workshop: Introduction to MDAnalysis and Molecular Nodes, February 2024
 Materials for the February 28, 2024 MDAnalysis and Molecular Nodes workshop.
 
-**NOTE: Materials for this workshop are currently under construction and likely to change - please check again closer to the workshop date.**
-
 ## Schedule
-*Schedule is subject to change*
+
+Each section will consist of a **lecture** component, introducing relevant concepts, 
+and a guided **tutorial** component which you can follow along with the instructor 
+(or at your own pace).
+
 | Time | Topic | Instructor |
 |-----|-----|-----|
 |03:00 - 03:05 UTC | Introduction | |
-|03:05 - 04:15 UTC | [MDAnalysis Lecture 1](https://github.com/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/feb24-ws/notebooks/Lecture1_MDAnalysisBasics.ipynb) / [Tutorial 1](https://github.com/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/oct23-ws/notebooks/Tutorial1_System_Manipulation.ipynb) | [Fiona Naughton](https://github.com/fiona-naughton) |
+|03:05 - 04:15 UTC | **MDAnalysis Part 1 (basics, system manipulation)** [Lecture](https://github.com/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/feb24-ws/notebooks/Lecture1_MDAnalysisBasics.ipynb) / [Tutorial 1](https://github.com/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/oct23-ws/notebooks/Tutorial1_System_Manipulation.ipynb) | [Fiona Naughton](https://github.com/fiona-naughton) |
 |04:15 - 04:20 UTC | Q&A / Break| |
-|04:20 - 05:30 UTC | [MDAnalysis Lecture 2](https://github.com/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/oct23-ws/notebooks/Lecture2_Distance_calculations.ipynb) / [Tutorial 2](https://github.com/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/oct23-ws/notebooks/Tutorial2_Distances_Trajectories.ipynb) | [Lily Wang](https://github.com/lilyminium) | 
+|04:20 - 05:30 UTC | **MDAnalysis Part 2 (distances, trajectories)** [Lecture](https://github.com/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/oct23-ws/notebooks/Lecture2_Distance_calculations.ipynb) / [Tutorial 2](https://github.com/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/oct23-ws/notebooks/Tutorial2_Distances_Trajectories.ipynb) | [Lily Wang](https://github.com/lilyminium) | 
 |05:30 - 05:35 UTC | Q&A / Break ||
-|05:35 - 06:45 UTC | Molecular Nodes Lecture / [Tutorial 3](https://github.com/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/feb24-ws/notebooks/Tutorial3_Interactive_Blender.ipynb) | [Brady Johnston](https://github.com/BradyAJohnston), [Yuxuan Zhuang](https://github.com/yuxuanzhuang) |
+|05:35 - 06:45 UTC | **Molecular Nodes** Lecture / [Tutorial 3](https://github.com/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/feb24-ws/notebooks/Tutorial3_Interactive_Blender.ipynb) | [Brady Johnston](https://github.com/BradyAJohnston), [Yuxuan Zhuang](https://github.com/yuxuanzhuang) |
 |06:45 - 06:50 UTC | Final Announcements ||
 |06:50 - 07:00 UTC | Final Q&A ||
 
