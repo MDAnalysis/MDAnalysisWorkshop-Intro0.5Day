@@ -59,7 +59,8 @@ More detail on each option is further in this tutorial, but the short descriptio
 Click `Load` to import the selected trajectory with the chosen options.
 The model will appear in the scene, and once you change frame in the scene, it will update the frame displayed in the viewport.
 
-![](https://imgur.com/u5HUcW5.mp4)
+
+https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261/e7b58652-a83c-4bd5-bd7d-5b110adb79b7
 
 ### Changing Style
 
@@ -68,7 +69,8 @@ You can change the style by altering the `Style` nodes that are use inside of th
 As you can see in the example, if we don't apply the style, we can view just the raw atomic data that is being updated.
 Depending on which nodes we use to process that data, we can create different styles of further animations.
 
-![](https://imgur.com/MY0Q3eQ.mp4)
+https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261/1b0e1273-9bf2-44c6-95a7-9edf933807b8
+
 
 ### Subframes
 
