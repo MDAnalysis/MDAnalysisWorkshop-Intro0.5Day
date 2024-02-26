@@ -6,7 +6,10 @@ bibliography: references.bib
 
 # Starting Blender
 
-If you have successfully installed Molecular Nodes, then you should see `Molecular Nodes` as a new starting template when opening Blender. You can still use Molecular Nodes without starting as a template, but the UI will be slightly different to start with. When starting with or without the template, you can customise the UI and starting scene to your liking - and even create your own templates. Included with Molecular Nodes is a template which includes a number of quality-of-life improvements for using Molecular Nodes.
+If you have successfully installed Molecular Nodes, then you should see `Molecular Nodes` as a new starting template when opening Blender.
+You can still use Molecular Nodes without starting as a template, but the UI will be slightly different to start with.
+When starting with or without the template, you can customise the UI and starting scene to your liking - and even create your own templates.
+Included with Molecular Nodes is a template which includes a number of quality-of-life improvements for using Molecular Nodes.
 
 If you do not see this, then please follow the [installation instructions](https://bradyajohnston.github.io/MolecularNodes/installation.html) in the documentation.
 
@@ -14,31 +17,32 @@ If you do not see this, then please follow the [installation instructions](https
 
 # The 'Molecular Nodes' Interface
 
-Blender can have a very overwhelming interface. The Molecular Nodes template starts with 3 main areas shown - the 3D viewport where the 3D view and rendered view are shown, the Geometry Nodes - where you combine different nodes to style and animate your structure, and the Shader Nodes, where you can quickly adjust the look of the materials applied to your structure.
+Blender can have a very overwhelming interface.
+The Molecular Nodes template starts with 3 main areas shown - the 3D viewport where the 3D view and rendered view are shown, the Geometry Nodes - where you combine different nodes to style and animate your structure, and the Shader Nodes, where you can quickly adjust the look of the materials applied to your structure.
 
 The other areas are the `Outliner` which shows all of the objects in your 3D scene, the `Properties` where you can adjust all of the scene, render, world, material and other properties, and the `Timeline`, which shows the current and surrounding frames if there is an animation to play back.
 
 ![Screenshot of Blender's Interface](imgs/workspaces.png)
 
-> Where you mouse is currently hovering over, determines the actions that are triggered by keyboard shortcuts. Be sure to move the mouse to the area you want to interact with before using keyboard shortcuts.
+> Where you mouse is currently hovering over, determines the actions that are triggered by keyboard shortcuts.
+> Be sure to move the mouse to the area you want to interact with before using keyboard shortcuts.
 
-You can resize and change the arrangement of the windows by hovering your mouse over the edges of the windows. You can create new windows by dragging out of the corners of the windows, or combine windows by dragging the corner of one window into another.
+You can resize and change the arrangement of the windows by hovering your mouse over the edges of the windows.
+You can create new windows by dragging out of the corners of the windows, or combine windows by dragging the corner of one window into another.
 
 > For a more general introduction to Blender, please see the [Blender's Interface](https://bradyajohnston.github.io/MolecularNodes/tutorials/00_interface.html)
 
 ## MD Trajectory Panel
 
 To import trajectories, change the import method in the Molecular Nodes panel to the `MD` import method.
-Once on the MD panel, you can select topology and trajectory files, choose a name for the created object, and change the import options such as the starting style or filters to apply when importing.
 
-![](imgs/MN_panel_MD.png)
+1.  Change the import method from PDB to MD
+2.  Select the topology and trajectory files.
 
-The minimum requirements are a valid \`Topology\`\` file, that can be read by [MDAnalysis](https://userguide.mdanalysis.org/stable/formats/index.html).
+Optionally change import settings for style filtering and the addition of extra selections.
+Check the documentation for more details on these potential options.
 
-If just a topology is selected then a static model should be imported.
-If additionally a trajectory is selected, then the toplogy will have coordinates that change when the `Frame` changes inside of Blender.
-
-Below selects some example `MDAnlaysis` data for import, without changing any of the defaults.
+![](imgs/molecular_nodes_panel.png)
 
 ### Import Options
 
@@ -115,7 +119,8 @@ To make changes you must reimport the trajectory.
 
 To create an animation of the structure opening, we will import one of the example datasets that we have been working with in the previous jupyter notebooks.
 
-The data should already be downloaded onto your computer, found in your home folder under `~/MDAnalysis_data/`. You can check the path of the files by running this command in one of your notebooks.
+The data should already be downloaded onto your computer, found in your home folder under `~/MDAnalysis_data/`.
+You can check the path of the files by running this command in one of your notebooks.
 
 ``` python
 # pip install MDAnalysisData
