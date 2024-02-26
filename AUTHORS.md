@@ -17,6 +17,7 @@ The rules for this file:
 **2024**
 - Brady Johnston @BradyAJohnston
 - Fiona Naughton @fiona-naughton
+- Yuxuan Zhuang @yuxuanzhuang
 
 **2023**
 - Irfan Alibay @IAlibay
