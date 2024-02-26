@@ -18,8 +18,10 @@ assume the use of [conda][3].
 
 ### 1. Creating a workshop environment
 
-After cloning the workshop repository, run the following to create an environment 
-named `mda_workshop` with all the necessary Python dependencies:
+After cloning the workshop repository, you should be in the `feb24-ws` branch.
+You can check this using `git branch`, and swich if necessary using `git checkout feb24-ws`.
+
+Run the following to create an environment named `mda_workshop` with all the necessary Python dependencies:
 
 ```bash
 conda env create --file=environment.yml
