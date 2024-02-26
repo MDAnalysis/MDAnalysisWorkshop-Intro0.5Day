@@ -84,6 +84,25 @@ The `Frame` number in Blender no longer directly matches the frame displayed fro
 
 ![](https://imgur.com/TGpZgfb.mp4)
 
+### Trasnforming Objects
+
+You can move objects around the scene with the transform keys. This includes imported structures and trajectories. 
+You can select objects with a left click of the mouse <kbd>LMB</kbd>, and move them around by *Grabbing* them with the <kbd>G</kbd> key.
+
+The main actions that you use the 3D Viewport for are:
+
+-   <kbd>G</kbd> - **Grabbing:** Moving an object around in 3D space.
+
+-   <kbd>S</kbd> - **Scaling:** Changing the relative size of an object.
+
+-   <kbd>R</kbd> - **Rotating:** Rotating the object in 3D space.
+
+#### Locking to an Axis
+
+When transforming by grabbing, rotating or scaling, you can lock the transformation to a particular axis. Click <kbd>X</kbd> / <kbd>Y</kbd> / <kbd>Z</kbd> after starting the transformation to lock it to those axes, or <kbd>Shift</kbd> + <kbd>X</kbd> / <kbd>Y</kbd> / <kbd>Z</kbd> to lock the transformation to be *perpendicular* to that axis.
+
+https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261/4ece00a9-d992-48d5-b4ea-bb99d57ced5c
+
 ## Streaming vs In Memory
 
 ### Streaming
