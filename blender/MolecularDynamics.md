@@ -4,19 +4,25 @@ author: Brady Johnston
 bibliography: references.bib
 ---
 
-::: {#fig-md-example-render}
-![](https://imgur.com/S42CNVJ.mp4){autoplay="true" loop="true"}
+# Starting Blender
 
-The protein adenylate kinase (AdK) undergoes a structural change during its catalytic cycle between a closed and an open state that is captured in enhanced sampling simulations [@seyler2015].
-The protein secondary structure is shown as a round ribbon with individual amino acid sidechains as ball-and-sticks.
-The trajectory was rendered with Blender and the MolecularNodes plugin (Brady Johnston).
-Trajectory files are available via [MDAnalysisData](https://www.mdanalysis.org/MDAnalysisData/adk_transitions.html#adk-dims-transitions-ensemble-dataset) Copyright CC-BY 2023 Brady Johnston.
-:::
+If you have successfully installed Molecular Nodes, then you should see `Molecular Nodes` as a new starting template when opening Blender. You can still use Molecular Nodes without starting as a template, but the UI will be slightly different to start with. When starting with or without the template, you can customise the UI and starting scene to your liking - and even create your own templates. Included with Molecular Nodes is a template which includes a number of quality-of-life improvements for using Molecular Nodes.
 
-As well as importing static structures, the results from molecular dynamics simulations can be imported as models in to Blender.
-This is enabled through the excellent package [`MDAnalysis`](https://www.mdanalysis.org/).
-The imported structure will have an object created that will act as the topology file.
-Depending on the import method, the frames of the trajectory will either be streamed from the disk, or loaded in to memory inside of the `.blend` file as their own separate objects.
+If you do not see this, then please follow the [installation instructions](https://bradyajohnston.github.io/MolecularNodes/installation.html) in the documentation.
+
+![Screenshot of Blender's interface when launching](imgs/splash_screen.png)
+
+# The 'Molecular Nodes' Interface
+
+Blender can have a very overwhelming interface. The Molecular Nodes template starts with 3 main areas shown - the 3D viewport where the 3D view and rendered view are shown, the Geometry Nodes - where you combine different nodes to style and animate your structure, and the Shader Nodes, where you can quickly adjust the look of the materials applied to your structure.
+
+The other areas are the `Outliner` which shows all of the objects in your 3D scene, the `Properties` where you can adjust all of the scene, render, world, material and other properties, and the `Timeline`, which shows the current and surrounding frames if there is an animation to play back.
+
+![Screenshot of Blender's Interface](imgs/workspaces.png)
+
+> Where you mouse is currently hovering over, determines the actions that are triggered by keyboard shortcuts. Be sure to move the mouse to the area you want to interact with before using keyboard shortcuts.
+
+You can resize and change the arrangement of the windows by hovering your mouse over the edges of the windows. You can create new windows by dragging out of the corners of the windows, or combine windows by dragging the corner of one window into another.
 
 > For a more general introduction to Blender, please see the [Blender's Interface](https://bradyajohnston.github.io/MolecularNodes/tutorials/00_interface.html)
 
