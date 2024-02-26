@@ -2,10 +2,11 @@ name: mda_workshop
 channels:
   -  conda-forge
 dependencies:
+  - python<3.12
   - MDAnalysis
   - MDAnalysisTests
   - MDAnalysisData
-  - nglview
+  - nglview==3.0.3
   - notebook<7
   - jupyter_contrib_nbextensions
   - importlib-metadata
@@ -14,4 +15,4 @@ dependencies:
   # testing
   - pytest
   - nbval
-  - ipywidgets<8
+  - ipywidgets==7.6.0
