@@ -4,9 +4,11 @@ title: Blender's Interface
 
 # Starting Blender
 
-If you have successfully installed Molecular Nodes, then you should see `Molecular Nodes` as a new starting template when opening Blender.
+If you have successfully installed Molecular Nodes, then you should see `Molecular Nodes` as a new starting template when opening Blender. You can still use Molecular Nodes without starting as a template, but the UI will be slightly different to start with. When starting with or without the template, you can customise the UI and starting scene to your liking - and even create your own templates. Included with Molecular Nodes is a template which includes a number of quality-of-life improvements for using Molecular Nodes.
 
 If you do not see this, then please follow the [installation instructions](https://bradyajohnston.github.io/MolecularNodes/installation.html) in the documentation.
+
+![Screenshot of Blender's interface when launching](imgs/splash_screen.png)
 
 # Blender's Interface
 
