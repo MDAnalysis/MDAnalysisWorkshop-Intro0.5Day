@@ -10,11 +10,15 @@ If you do not see this, then please follow the [installation instructions](https
 
 ![Screenshot of Blender's interface when launching](imgs/splash_screen.png)
 
-# Blender's Interface
+# The 'Molecular Nodes' Interface
+
+Blender can have a very overwhelming interface. The Molecular Nodes template starts with 3 main areas shown - the 3D viewport where the 3D view and rendered view are shown, the Geometry Nodes - where you combine different nodes to style and animate your structure, and the Shader Nodes, where you can quickly adjust the look of the materials applied to your structure.
+
+The other areas are the `Outliner` which shows all of the objects in your 3D scene, the `Properties` where you can adjust all of the scene, render, world, material and other properties, and the `Timeline`, which shows the current and surrounding frames if there is an animation to play back.
 
 ![Screenshot of Blender's Interface](imgs/workspaces.png)
 
-Blender has a _very_ overwhelming interface. There is no getting around this. Blender can do _practically anything_, and it is sometimes hard to do simple things.
+> Where you mouse is currently hovering over, determines the actions that are triggered by keyboard shortcuts. Be sure to move the mouse to the area you want to interact with before using keyboard shortcuts.
 
 ### A New File
 
