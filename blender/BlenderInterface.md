@@ -2,6 +2,16 @@
 title: Blender's Interface
 ---
 
+# Starting Blender
+
+If you have successfully installed Molecular Nodes, then you should see `Molecular Nodes` as a new starting template when opening Blender.
+
+If you do not see this, then please follow the [installation instructions](https://bradyajohnston.github.io/MolecularNodes/installation.html) in the documentation.
+
+# Blender's Interface
+
+![Screenshot of Blender's Interface](imgs/workspaces.png)
+
 Blender has a _very_ overwhelming interface. There is no getting around this. Blender can do _practically anything_, and it is sometimes hard to do simple things.
 
 ### A New File
