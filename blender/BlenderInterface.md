@@ -20,6 +20,8 @@ The other areas are the `Outliner` which shows all of the objects in your 3D sce
 
 > Where you mouse is currently hovering over, determines the actions that are triggered by keyboard shortcuts. Be sure to move the mouse to the area you want to interact with before using keyboard shortcuts.
 
+You can resize and change the arrangement of the windows by hovering your mouse over the edges of the windows. You can create new windows by dragging out of the corners of the windows, or combine windows by dragging the corner of one window into another.
+
 ### A New File
 
 Starting a new file, you are greeted by the splash screen. You can click `General` to start a new session with a general-purpose setup.
@@ -34,7 +36,7 @@ You can rotate the camera view either using the middle mouse button <kbd>MMB</kb
 
 You can pan the camera using <kbd>Shift</kbd> + <kbd>MMB</kbd>
 
-![](https://imgur.com/i4kyvQX.mp4)
+![](imgs/viewport_navigation.mp4)
 
 ## Transforming Objects
 
