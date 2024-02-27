@@ -1,10 +1,6 @@
 # Authors
 
-The MDAnalysisWorkshop2023 repository was created by Irfan Alibay in 2023.
-
 All contributing authors are listed in this file below.
-The repository history at https://github.com/MDAnalysis/MDAnalysisWorkshop2023
-and the CHANGELOG show individual code contributions.
 
 ## Chronological list of authors
 
@@ -19,7 +15,9 @@ The rules for this file:
 -->
 
 **2024**
+- Brady Johnston @BradyAJohnston
 - Fiona Naughton @fiona-naughton
+- Yuxuan Zhuang @yuxuanzhuang
 
 **2023**
 - Irfan Alibay @IAlibay
