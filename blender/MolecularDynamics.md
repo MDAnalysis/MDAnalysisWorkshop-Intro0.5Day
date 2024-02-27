@@ -86,7 +86,14 @@ In the example below, if we remove the style node, we can see that no style is b
 
 https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261/1b0e1273-9bf2-44c6-95a7-9edf933807b8
 
-There is not time to go in depth in this tutorial on how node graphs work - please see the [documentation](https://bradyajohnston.github.io/MolecularNodes) for more details and tutorials.
+> There is not time to go in depth in this tutorial on how node graphs work - please see the [documentation](https://bradyajohnston.github.io/MolecularNodes) for more details and tutorials.
+
+#### Selections
+
+Most nodes will take an optional `Selection` input. This allows you to apply an animation or a style to specific subset of atoms within the structure. 
+
+To access the selections, use the add menu (<kbd>Shift</kbd> + <kbd>A</kbd>) and use `Molecular Nodes` -> `Selections`. We will add the `Element` selection node.
+
 
 ### Subframes
 
@@ -176,7 +183,11 @@ To change the rendering engine, you can change it in the `Render Properties` tab
 
 ![Quick access to common render settings in the Molecular Nodes 'Scene' tab](imgs/mn_render_settings.png)
 
+
+
 ### Rendering the Animation
+
+For the final we can adjust the start and end frames for the timeline to display the trajectory, adding a single subframe to slow things down slightly, and combining two different styles to get the ribbon backbone, and the side chains to be ball and stick.
 
 We can change some final settings of the style, do a test `Render Image`, change the export settings for where the frames of the animation are going to be saved, then we can click `Render Animation` to render all of the frames of the animation.
 
