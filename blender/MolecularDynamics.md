@@ -143,39 +143,6 @@ When transforming by grabbing, rotating or scaling, you can lock the transformat
 
 https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261/4ece00a9-d992-48d5-b4ea-bb99d57ced5c
 
-## Streaming vs In Memory
-
-### Streaming
-
-The default option will associate an `MDAnlaysis` session with the read topology file.
-This will stream the topology from disk, as the frame in the scene inside of Blender changes.
-If the original topology or trajectory files are moved, this will break the connection to the data.
-This is the most performant option, but will potentially break if changing computers.
-
-Below is an example of importing a trajectory, by streaming the frames.
-As the frame changes in the scene, the loaded frame is updated on the imported protein, based on the created MDAnalysis session.
-Interpolation between frames is currently not supported with this import method.
-
-The MDAnalysis session will be saved when the `.blend` file is saved, and should be restored when the `.blend` file is reopened.
-
-![](https://imgur.com/nACvzzd.mp4)
-
-### In Memory
-
-The `In Memory` option will load all frames of the trajectory in to memory, and store them as objects inside of the `MN_data` collection in the scene.
-This will ensure that all of the associated data is stored inside of the `.blend` file for portability, but will come at the cost of performance for very large trajectories.
-It also breaks the connection to the underlying `MDAnalysis` session, which limits the ability to further tweak the trajectory after import.
-
-If `In Memory` is selected, the frames are imported as individual objects and stored in a `MN_data` collection.
-The interpolation between frames is then handled by nodes inside of Geometry Nodes, which aren't necessarily linked to the scene frame.
-
-This will create a larger `.blend` file and can lead to some performance drops with large trajectories, but ensures all of the data is kept within the saved file, and can enable further creative control through Geometry Nodes.
-
-All connection to the underlying MDAnalysis session is lost on import, and the selections and trajectory cannot changed.
-To make changes you must reimport the trajectory.
-
-![](https://imgur.com/ZoTfmvl.mp4)
-
 
 
 ### Rendering an Image
@@ -189,6 +156,10 @@ You can then render an image by clicking `Render` -> `Render Image`, or use the 
 https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261/f1942978-d99a-4486-abc1-6b59a6ca1e40
 
 The time it takes for the render to complete will depend a lot on how you have set up the scene, and more importantly the kind of hardware that your computer has. This is unfortunately a limiting step for many. If you have access to external computing resources such as a HPC cluster however - you can set up a scene on your local laptop, and when you are ready to render, render the image or the animation via the command line on a compute cluster.
+
+To save the rendered image, use `Image` -> `Save As...` and the choose the desired image formats.
+
+![](imgs/render_save.png)
 
 #### Render Engine and Render Settings
 
@@ -210,4 +181,20 @@ For the final we can adjust the start and end frames for the timeline to display
 
 We can change some final settings of the style, do a test `Render Image`, change the export settings for where the frames of the animation are going to be saved, then we can click `Render Animation` to render all of the frames of the animation.
 
-![](https://imgur.com/IBKUQSr.mp4)
+
+The output format for the animation will be different to single still images.
+
+In the screeshot below we do the following steps:
+
+1. Open the `Output Properties` tab (which looks like a small printer icon)
+2. Change the frame range which will be rendered. This will be dependent on the length of your trajectory.
+3. Change the folder that the final rendered images will be output to.
+4. Change the format of the final rendered output.
+
+> You can output directly to `.mp4` or other video formats, but it is _strongly recommended_ to render indivudual frames as `.png` or other image formats, the combine into an animation once you are done rendering. This way if something goes wrong, you can resume from the frames you have already rendered, or can distribute rendering of frames across multiple machines.
+
+![](imgs/render_animation_settings.png)
+
+To render the sequence, use `Render` -> `Render Animation` or the keyboard shortcut <kbd>Ctrl</kbd> + <kbd>F12</kbd>. Blender will start rendering all of the frames of the animation. 
+
+If you want to pick up where you left off with a render, ensure the `Overwrite` is disabled, otherwise blender will start rendering from the start again and overwrite the already rendered frames. If you wish to overwrite the rendered frames because something went wrong, then ensure to have this enabled.
