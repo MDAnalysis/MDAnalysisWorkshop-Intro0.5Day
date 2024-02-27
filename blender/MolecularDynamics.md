@@ -94,6 +94,15 @@ Most nodes will take an optional `Selection` input. This allows you to apply an 
 
 To access the selections, use the add menu (<kbd>Shift</kbd> + <kbd>A</kbd>) and use `Molecular Nodes` -> `Selections`. We will add the `Element` selection node.
 
+https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261/0c1d26b4-96c0-46ff-9849-ed1ad01dfc4a
+
+You can also create selections based on other attributes. In this next example we use the `Select Backbone` to select either backbone, side chain or alpha carbon atoms.
+
+https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261/bbba1f62-4965-4044-94e8-0be842957439
+
+You can even combine selections with the `Boolean Math` node, to create arbitrarily complex selections.
+
+https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261/69420456-cb26-445d-b97b-e8db8daa2529
 
 ### Subframes
 
