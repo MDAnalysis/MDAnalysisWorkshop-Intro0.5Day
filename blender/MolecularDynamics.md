@@ -76,6 +76,12 @@ https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261
 
 You can change the style by altering the `Style` nodes that are use inside of the node tree.
 
+You can add new nodes to the node tree, by using <kbd>Shift</kbd> + <kbd>A</kbd> or using the `Add` menu. You will see all of the different categories of nodes that are possible to add. Most of these are general purpose nodes for processing geometry, and are not designed with molecular data in mind. 
+
+The `Molecular Nodes` category are all of the custom-made nodes that are included with Molecular Nodes.
+
+When searching for nodes, you can mouse through to manually select them, or once the add menu is open, start typing to search for possible nodes to add to the node tree.
+
 Inside of Blender, the atoms exist as a 3D mesh. Atoms are individual vertices and bonds between atoms are edges between those vertices. On top of these 'Atoms', we apply a `Geometry Nodes` modifier, which takes in the atomic data from the left, process it through a series of nodes, and the output goes out to the right.
 
 In the initial node setup, Molecular Nodes has added some starting nodes. The first assigns colors to the atoms, based on their assigned element. The second node creates a `Sphere` style, which instances a sphere for each atom in the structure.
