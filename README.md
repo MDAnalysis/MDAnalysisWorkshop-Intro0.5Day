@@ -12,7 +12,7 @@ Materials for the February 28, 2024 MDAnalysis and Molecular Nodes workshop.
 |04:15 - 04:20 UTC | Q&A / Break| |
 |04:20 - 05:30 UTC | [MDAnalysis Lecture 2](https://github.com/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/oct23-ws/notebooks/Lecture2_Distance_calculations.ipynb) / [Tutorial 2](https://github.com/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/oct23-ws/notebooks/Tutorial2_Distances_Trajectories.ipynb) | [Lily Wang](https://github.com/lilyminium) | 
 |05:30 - 05:35 UTC | Q&A / Break ||
-|05:35 - 06:45 UTC | Molecular Nodes Lecture / [Tutorial 3](https://github.com/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/feb24-ws/notebooks/Tutorial3_Interactive_Blender.ipynb) | [Brady Johnston](https://github.com/BradyAJohnston), [Yuxuan Zhuang](https://github.com/yuxuanzhuang) |
+|05:35 - 06:45 UTC | [Molecular Nodes Tutorial](https://github.com/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/feb24-ws/blender/MolecularNodes.md) / [Tutorial 3](https://github.com/MDAnalysis/MDAnalysisWorkshop-Intro0.5Day/blob/feb24-ws/blender/Interactive_Blender_Notebook.ipynb) | [Brady Johnston](https://github.com/BradyAJohnston), [Yuxuan Zhuang](https://github.com/yuxuanzhuang) |
 |06:45 - 06:50 UTC | Final Announcements ||
 |06:50 - 07:00 UTC | Final Q&A ||
 
