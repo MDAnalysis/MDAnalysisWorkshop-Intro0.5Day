@@ -1,8 +1,3 @@
----
-title: Molecular Dynamics
-author: Brady Johnston
-bibliography: references.bib
----
 
 # Starting Blender
 
