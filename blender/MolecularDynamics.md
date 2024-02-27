@@ -162,6 +162,7 @@ To preview what the camera sees, we can click the `Camera` icon in the 3D viewpo
 
 You can then render an image by clicking `Render` -> `Render Image`, or use the keyboard shortcut <kbd>F12</kbd>.
 
+https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261/f1942978-d99a-4486-abc1-6b59a6ca1e40
 
 ### Rendering the Animation
 
