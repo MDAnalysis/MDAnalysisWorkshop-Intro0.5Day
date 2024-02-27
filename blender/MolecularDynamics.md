@@ -164,6 +164,18 @@ You can then render an image by clicking `Render` -> `Render Image`, or use the 
 
 https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261/f1942978-d99a-4486-abc1-6b59a6ca1e40
 
+The time it takes for the render to complete will depend a lot on how you have set up the scene, and more importantly the kind of hardware that your computer has. This is unfortunately a limiting step for many. If you have access to external computing resources such as a HPC cluster however - you can set up a scene on your local laptop, and when you are ready to render, render the image or the animation via the command line on a compute cluster.
+
+#### Render Engine and Render Settings
+
+Until now we have been using the `Cycles` render engine. This is a _physically based_ ray-traced rendering engine. It is very computationally intensive, but produces very beautiful renders thanks to its excellent lighting calculations. Blender also includes a second rendering engine that is designed to be faster called `EEVEE`. `EEVEE` is much more like a render engine in a video game or in more traditional molecular visualisation software. We won't go into specifics, but `EEVEE` approximates many things and doesn't use ray tracing to be much faster. It can take some more tweaking and adjustments to get something looking 'nice', but `EEVEE` is an excellent render engine and importantly renders much _much_ faster than cycles.
+
+> Only the `Style Spheres` might not show up in the `EEVEE` engine. There is a tick-box to display it in `EEVEE` as well as `Cycles` by instancing icospheres instead of using perfectly spherical point clouds.
+
+To change the rendering engine, you can change it in the `Render Properties` tab, or in the `Scene` tab of Molecular Nodes. In the render properties you can also change the resolution of the render, as well as the number of samples if using the `Cycles render engine.
+
+![Quick access to common render settings in the Molecular Nodes 'Scene' tab](imgs/mn_render_settings.png)
+
 ### Rendering the Animation
 
 We can change some final settings of the style, do a test `Render Image`, change the export settings for where the frames of the animation are going to be saved, then we can click `Render Animation` to render all of the frames of the animation.
