@@ -76,10 +76,17 @@ https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261
 
 You can change the style by altering the `Style` nodes that are use inside of the node tree.
 
-As you can see in the example, if we don't apply the style, we can view just the raw atomic data that is being updated.
-Depending on which nodes we use to process that data, we can create different styles of further animations.
+Inside of Blender, the atoms exist as a 3D mesh. Atoms are individual vertices and bonds between atoms are edges between those vertices. On top of these 'Atoms', we apply a `Geometry Nodes` modifier, which takes in the atomic data from the left, process it through a series of nodes, and the output goes out to the right.
+
+In the initial node setup, Molecular Nodes has added some starting nodes. The first assigns colors to the atoms, based on their assigned element. The second node creates a `Sphere` style, which instances a sphere for each atom in the structure.
+
+The data flows through the node graph from left to right - like water flowing through pipes. We can alter how the data is processed, by changing the inputs on the nodes themselves, which results in changes of the final created geometry.
+
+In the example below, if we remove the style node, we can see that no style is being applied and thus the underlying atoms and bonds are visible as the only processing of the atoms that is occurring is to assign them colors.
 
 https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261/1b0e1273-9bf2-44c6-95a7-9edf933807b8
+
+There is not time to go in depth in this tutorial on how node graphs work - please see the [documentation](https://bradyajohnston.github.io/MolecularNodes) for more details and tutorials.
 
 ### Subframes
 
@@ -147,15 +154,14 @@ To make changes you must reimport the trajectory.
 
 
 
-### Setting the Scene
+### Rendering an Image
 
-We can set up the scene a bit nicer with a backdrop.
-In this case we create a plane using <kbd>Shift</kbd> + <Kbd>A</kbd> to add a plane, go in to [edit mode](#01-introduction-edit-mode) and extrude the backbdrop up with the <kbd>E</kbd> key.
-We can create a slightly curved corner by bevelling the corner.
-Select the two vertices of the edge and click <kbd>Ctrl</kbd> + <kbd>B</kbd>.
-Move the mouse and use the scroll wheel to adjust the settings, then left click to apply.
+Blender will not render an image of what you are currently seeing like most molecular software you are used to. Blender will render an image based on what the `Camera` is currently seeing. This may seem frustrating at first - but will make more sense the more you use the software and becomes far more intuitive than other methods.
 
-![](https://imgur.com/6LUQEnz.mp4)
+To preview what the camera sees, we can click the `Camera` icon in the 3D viewport. The slightly darkened outline shows what the camera is seeing, and if `Depth of Field` is being used, you will see what is in focus and out of focus.
+
+You can then render an image by clicking `Render` -> `Render Image`, or use the keyboard shortcut <kbd>F12</kbd>.
+
 
 ### Rendering the Animation
 
