@@ -172,6 +172,8 @@ Until now we have been using the `Cycles` render engine. This is a _physically b
 
 > Only the `Style Spheres` might not show up in the `EEVEE` engine. There is a tick-box to display it in `EEVEE` as well as `Cycles` by instancing icospheres instead of using perfectly spherical point clouds.
 
+https://github.com/BradyAJohnston/MDAnalysisWorkshop-Intro0.5Day/assets/36021261/239dc5f2-229e-41cf-bb06-0f279cd6236f
+
 To change the rendering engine, you can change it in the `Render Properties` tab, or in the `Scene` tab of Molecular Nodes. In the render properties you can also change the resolution of the render, as well as the number of samples if using the `Cycles render engine.
 
 ![Quick access to common render settings in the Molecular Nodes 'Scene' tab](imgs/mn_render_settings.png)
