@@ -91,7 +91,7 @@ The subframes for the trajectory can be adjusted in the `Object` section of the 
 
 The `Frame` number in Blender no longer directly matches the frame displayed from the trajectory, with the trajectory playing back 'slower' than previously.
 
-![](https://imgur.com/TGpZgfb.mp4)
+![](imgs/subframes.png)
 
 ### Trasnforming Objects
 
@@ -145,32 +145,7 @@ To make changes you must reimport the trajectory.
 
 ![](https://imgur.com/ZoTfmvl.mp4)
 
-## Creating the Animation
 
-
-
-### Loading the Trajectory
-
-We will load the trajectory, and load all of the frames into memory to ensure we can make a smoother trajectory.
-
-In the video below we have imported the trajectory, and we can adjust the number of frames in the scene, as well as the number of frames the trajectory will play back over.
-We also enabled `EEVEE` atoms to display in the EEVEE render engine.
-
-![](https://imgur.com/jKTYWp9.mp4)
-
-#### Changing Styles
-
-We can change the style of the imported trajectory, by adding a new style node.
-We can combine styles with the `Join Geometry`.
-For more details on adding styles, see the (importing)\[01_importing.qmd\] tutorial.
-
-![](https://imgur.com/nhau0r9.mp4)
-
-We can apply the atoms style, only to the side chains of the protein, by using the `Backbone` selection node, and using the `is_side_chain` output.
-This selectively applies the style to only those atoms in the selection.
-The combined styles now contain only the atoms for the side chains and a continuous ribbon for the protein.
-
-![](https://imgur.com/1m3pHKM.mp4)
 
 ### Setting the Scene
 
