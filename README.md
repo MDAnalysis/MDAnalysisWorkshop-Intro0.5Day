@@ -7,6 +7,8 @@ Each section will consist of a **lecture** component, introducing relevant conce
 and a guided **tutorial** component which you can follow along with the instructor 
 (or at your own pace).
 
+Moderators: [Lily Wang](https://github.com/lilyminium) and [Brady Johnston](https://github.com/BradyAJohnston)
+
 | Time | Topic | Instructor |
 |-----|-----|-----|
 |03:00 - 03:05 UTC | Introduction | |
