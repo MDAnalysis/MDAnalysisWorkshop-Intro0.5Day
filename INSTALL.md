@@ -18,8 +18,10 @@ assume the use of [conda][3].
 
 ### 1. Creating a workshop environment
 
-To create an environment named `mda_workshop` with all the necessary
-Python dependencies:
+After cloning the workshop repository, you should be in the `feb24-ws` branch.
+You can check this using `git branch`, and swich if necessary using `git checkout feb24-ws`.
+
+Run the following to create an environment named `mda_workshop` with all the necessary Python dependencies:
 
 ```bash
 conda env create --file=environment.yml
@@ -53,6 +55,9 @@ jupyter nbextension enable limit_output/main
 jupyter nbextension enable toc2/main
 ```
 
+You can now start a notebook server using `jupyter notebook` to view and interact 
+with the tutorial notebooks.
+
 # Installing Blender and Molecular Nodes
 
 > :warning: **Blender uses its own Python and MDAnalysis installation, so these will live separately to those installed in the earlier parts in this tutorial.**
@@ -60,8 +65,8 @@ jupyter nbextension enable toc2/main
 This is a brief overview of the installation instructions which can be found on the [Molecular Nodes][5] website.
 
 1. Download the latest stable [Blender][6] (Currently 4.0)
-2. Download the corresponding latest release of [Molecular Nodes][7] (currently 4.0.9)
-3. Install the `molecularnodes_4.0.9.zip` into Blender via the add-ons panel in the preferences.
+2. Download the corresponding latest release of [Molecular Nodes][7] (currently 4.0.11)
+3. Install the `molecularnodes_4.0.11.zip` into Blender via the add-ons panel in the preferences.
 4. Use the `Install` buttons to install _at least_ `biotite` and `MDAnalysis` into Blender's bundled python.
 
 For more details on these steps, visit the [Molecular Nodes][5] installation page.
