@@ -66,7 +66,7 @@ The workshop assumes that attendees have a working knowledge of [Jupyter noteboo
 
 ## Code of Conduct
 
-All members of the MDAnalysis community and participants in MDAnalysis workshops are expected to abide by the MDAnalysis [Code of Conduct](https://www.mdanalysis.org/pages/conduct/).
+All members of the MDAnalysis community and participants in MDAnalysis workshops are expected to abide by the MDAnalysis [Code of Conduct](https://www.mdanalysis.org/conduct/).
 
 ## License
 
