@@ -46,7 +46,7 @@ As downloading and installing everything will take a little while, ideally you s
 
 ## Code of Conduct
 
-All members of the MDAnalysis community and participants in MDAnalysis workshops are expected to abide by the MDAnalysis [Code of Conduct](https://www.mdanalysis.org/pages/conduct/).
+All members of the MDAnalysis community and participants in MDAnalysis workshops are expected to abide by the MDAnalysis [Code of Conduct](https://www.mdanalysis.org/conduct/).
 
 ## License
 
